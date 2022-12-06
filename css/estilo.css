@@ -1,0 +1,68 @@
+li a {
+  background-color: rgba(255, 217, 0, 0.678);
+  /*var*/
+  margin: 2px; }
+
+li a:hover {
+  background-color: gold;
+  color: black; }
+
+input {
+  width: 100px;
+  transition: all 0.5ms; }
+
+input:focus {
+  width: 150px;
+  font-size: 1.1rem; }
+
+textarea {
+  width: 250px;
+  transition: all 0.5ms; }
+
+textarea:focus {
+  width: 400px;
+  font: size 1.3rem; }
+
+@media only screen and (min-width: 1024px) {
+  .mapa {
+    height: 600px; } }
+
+@media screen and (max-width: 768px) {
+  .mapa {
+    height: 300px; } }
+
+.bg-neg {
+  background-color: black; }
+
+.bg-bla {
+  background-color: white; }
+
+.bg-dor {
+  background: linear-gradient(to bottom, rgba(255, 217, 0, 0.678), transparent); }
+
+.div_form {
+  display: inline-block;
+  padding: 30px;
+  background: linear-gradient(to bottom, rgba(255, 217, 0, 0.678), transparent);
+  margin: 10px; }
+
+h1 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; }
+
+h2 {
+  color: whitesmoke;
+  text-align: center; }
+
+h4 {
+  font-style: italic;
+  color: black; }
+
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px; }
+
+.m20 {
+  margin: 20px; }
